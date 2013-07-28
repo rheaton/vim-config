@@ -15,7 +15,7 @@ set shiftwidth=2                " Width of autoindent
 set number                      " Line numbers
 set nowrap                      " No wrapping
 set backspace=indent,eol,start " Let backspace work over anything.
-set wildignore+=tags               " Ignore tags when globbing.
+set wildignore+=.tags               " Ignore tags when globbing.
 set wildignore+=tmp/**             " ...Also tmp files.
 set wildignore+=public/uploads/**  " ...Also uploads.
 set wildignore+=public/images/**   " ...Also images.
